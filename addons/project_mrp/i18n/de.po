@@ -34,12 +34,12 @@ msgstr "Anzahl Stücklisten"
 #: code:addons/project_mrp/models/project.py:0
 #, python-format
 msgid "Manufacturing Orders"
-msgstr "Fertigungsaufträge"
+msgstr "Produktionsaufträge"
 
 #. module: project_mrp
 #: model:ir.model.fields,field_description:project_mrp.field_project_project__production_count
 msgid "Manufacturing Orders Count"
-msgstr "Anzahl Fertigungsaufträge"
+msgstr "Anzahl Produktionsaufträge"
 
 #. module: project_mrp
 #: model:ir.model,name:project_mrp.model_project_project

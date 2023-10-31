@@ -108,7 +108,7 @@ msgstr "%s (neu) %s"
 #: code:addons/mrp/models/mrp_production.py:0
 #, python-format
 msgid "%s Child MO's"
-msgstr "%s untergeordnete Fertigungsaufträge"
+msgstr "%s untergeordnete Produktionsaufträge"
 
 #. module: mrp
 #. odoo-python
@@ -135,7 +135,7 @@ msgstr "'Endprodukte  - %s' % object.name"
 #. module: mrp
 #: model:ir.actions.report,print_report_name:mrp.action_report_production_order
 msgid "'Production Order - %s' % object.name"
-msgstr "'Fertigungsauftrag - %s' % object.name"
+msgstr "'Produktionsauftrag - %s' % object.name"
 
 #. module: mrp
 #: model:ir.actions.report,print_report_name:mrp.action_report_workorder
@@ -239,7 +239,7 @@ msgstr "<span class=\"o_stat_text\">Rückstände</span> "
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "<span class=\"o_stat_text\">Child MO</span>"
-msgstr "<span class=\"o_stat_text\">Untergeordneter Fertigungsauftrag</span>"
+msgstr "<span class=\"o_stat_text\">Untergeordneter Produktionsauftrag</span>"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_workcenter_view
@@ -387,7 +387,7 @@ msgstr "<strong>Ist Sperrgrund? </strong>"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_workorder
 msgid "<strong>Manufacturing Order:</strong><br/>"
-msgstr "<strong>Fertigungsauftrag:</strong><br/>"
+msgstr "<strong>Produktionsauftrag:</strong><br/>"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
@@ -473,7 +473,7 @@ msgstr ""
 #: code:addons/mrp/models/mrp_workorder.py:0
 #, python-format
 msgid "A Manufacturing Order is already done or cancelled."
-msgstr "Ein Fertigungsauftrag wurde bereits ausgeführt oder storniert."
+msgstr "Ein Produktionsauftrag wurde bereits ausgeführt oder storniert."
 
 #. module: mrp
 #. odoo-python
@@ -601,7 +601,7 @@ msgstr "Zuteilung"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_res_config_settings__group_mrp_reception_report
 msgid "Allocation Report for Manufacturing Orders"
-msgstr "Zuweisungsbericht für Fertigungsaufträge"
+msgstr "Zuweisungsbericht für Produktionsaufträge"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__allow_workorder_dependencies
@@ -623,7 +623,7 @@ msgid ""
 "Allow manufacturing users to modify quantities to consume, without the need "
 "for prior approval"
 msgstr ""
-"Benutzer in der Fertigung können die zu verbrauchenden Mengen ändern, ohne "
+"Benutzer in der Produktion können die zu verbrauchenden Mengen ändern, ohne "
 "dass eine vorherige Genehmigung erforderlich ist"
 
 #. module: mrp
@@ -817,8 +817,8 @@ msgid ""
 "case the product is subcontracted, this can be used to determine the date at"
 " which components should be sent to the subcontractor."
 msgstr ""
-"Durchschnittliche Vorlaufzeit in Tagen für die Fertigung dieses Produkts. Im"
-" Falle einer mehrstufigen Stückliste werden die Vorlaufzeiten der Fertigung "
+"Durchschnittliche Vorlaufzeit in Tagen für die Produktion dieses Produkts. Im"
+" Falle einer mehrstufigen Stückliste werden die Vorlaufzeiten der Produktion "
 "der Komponenten addiert. Falls das Produkt an einen Unterauftragnehmer "
 "vergeben wird, kann dies zur Bestimmung des Datums verwendet werden, an dem "
 "die Komponenten an den Unterauftragnehmer gesendet werden sollen."
@@ -862,14 +862,14 @@ msgstr "Backorder Bestätigungszeile"
 #: code:addons/mrp/models/mrp_production.py:0
 #, python-format
 msgid "Backorder MO"
-msgstr "Backorder Fertigungsauftrag"
+msgstr "Backorder Produktionsauftrag"
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 #, python-format
 msgid "Backorder MO's"
-msgstr "Lieferrückstand Fertigungsaufträge"
+msgstr "Lieferrückstand Produktionsaufträge"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__backorder_sequence
@@ -918,7 +918,7 @@ msgstr "Stücklistenposition"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild__mo_bom_id
 msgid "Bill of Material used on the Production Order"
-msgstr "Auf dem Fertigungsauftrag verwendete Stückliste"
+msgstr "Auf dem Produktionsauftrag verwendete Stückliste"
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.product_open_bom
@@ -1154,7 +1154,7 @@ msgstr "Abgebrochen"
 #, python-format
 msgid "Cannot delete a manufacturing order in done state."
 msgstr ""
-"Ein Fertigungsauftrag kann im fertig gestellten Zustand nicht gelöscht "
+"Ein Produktionsauftrag kann im fertig gestellten Zustand nicht gelöscht "
 "werden."
 
 #. module: mrp
@@ -1273,7 +1273,7 @@ msgstr "Komponentenstatus"
 #: code:addons/mrp/static/src/mrp_forecasted/forecasted_details.xml:0
 #, python-format
 msgid "Component of Draft MO"
-msgstr "Bestandteil des Entwurfs eines Fertigungsauftrags"
+msgstr "Bestandteil des Entwurfs eines Produktionsauftrags"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__move_raw_ids
@@ -1298,7 +1298,7 @@ msgstr "Position der Komponenten"
 msgid ""
 "Components will be reserved first for the MO with the highest priorities."
 msgstr ""
-"Die Komponenten werden zuerst für den Fertigungsauftrag mit den höchsten "
+"Die Komponenten werden zuerst für den Produktionsauftrag mit den höchsten "
 "Prioritäten reserviert."
 
 #. module: mrp
@@ -1490,7 +1490,7 @@ msgstr ""
 #. module: mrp
 #: model_terms:ir.actions.act_window,help:mrp.mrp_production_report
 msgid "Create a new manufacturing order"
-msgstr "Legen Sie einen neuen Fertigungsauftrag an"
+msgstr "Legen Sie einen neuen Produktionsauftrag an"
 
 #. module: mrp
 #: model_terms:ir.actions.act_window,help:mrp.mrp_routing_action
@@ -1516,7 +1516,7 @@ msgid ""
 "Create and confirm Manufacturing Orders this many days in advance, to have enough time to replenish components or manufacture semi-finished products.\n"
 "Note that security lead times will also be considered when appropriate."
 msgstr ""
-"Erstellen und bestätigen Sie Fertigungsaufträge einige Tage im Voraus, um genügend Zeit zu haben, Komponenten aufzufüllen oder halbfertige Produkte herzustellen.\n"
+"Erstellen und bestätigen Sie Produktionsaufträge einige Tage im Voraus, um genügend Zeit zu haben, Komponenten aufzufüllen oder halbfertige Produkte herzustellen.\n"
 "Beachten Sie, dass gegebenenfalls auch Sicherheitsvorlaufzeiten berücksichtigt werden."
 
 #. module: mrp
@@ -1541,14 +1541,14 @@ msgid ""
 msgstr ""
 "Erstellen Sie Abhängigkeiten auf Vorgangsebene, die sowohl die Planung als "
 "auch den Status von Arbeitsaufträgen bei der Bestätigung von "
-"Fertigungsaufträgen beeinflussen. Wenn diese Funktion aktiviert ist und "
+"Produktionsaufträgen beeinflussen. Wenn diese Funktion aktiviert ist und "
 "nichts angegeben wird, geht Odoo davon aus, dass alle Vorgänge gleichzeitig "
 "gestartet werden können."
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_move__created_production_id
 msgid "Created Production Order"
-msgstr "Erstellter Fertigungsauftrag"
+msgstr "Erstellter Produktionsauftrag"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_change_production_qty__create_uid
@@ -1688,7 +1688,7 @@ msgstr "Tage bis zur Lieferung von Komponenten"
 #: model:ir.model.fields,field_description:mrp.field_product_product__days_to_prepare_mo
 #: model:ir.model.fields,field_description:mrp.field_product_template__days_to_prepare_mo
 msgid "Days to prepare Manufacturing Order"
-msgstr "Tage zur Vorbereitung des Fertigungsauftrags"
+msgstr "Tage zur Vorbereitung des Produktionsauftrags"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__date_deadline
@@ -1703,7 +1703,7 @@ msgstr "Standardzeitraum"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_res_config_settings__use_manufacturing_lead
 msgid "Default Manufacturing Lead Time"
-msgstr "Standarddurchlaufzeit Fertigung"
+msgstr "Standarddurchlaufzeit Produktion"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter__default_capacity
@@ -1746,10 +1746,10 @@ msgid ""
 "  * Blocked: only a manager can close a manufacturing order when the BoM consumption is not respected."
 msgstr ""
 "Legt fest, ob Sie mehr oder weniger Komponenten als die in der Stückliste definierte Menge verbrauchen können:\n"
-"  * Erlaubt: erlaubt für alle Benutzer in der Fertigung.\n"
-"  * Erlaubt mit Warnung: erlaubt für alle Benutzer in der Fertigung mit Zusammenfassung der Verbrauchsdifferenzen beim Schließen des Fertigungsauftrags.\n"
+"  * Erlaubt: erlaubt für alle Benutzer in der Produktion.\n"
+"  * Erlaubt mit Warnung: erlaubt für alle Benutzer in der Produktion mit Zusammenfassung der Verbrauchsdifferenzen beim Schließen des Produktionsauftrags.\n"
 "  Beachten Sie, dass im Falle der Komponente Manueller Verbrauch, bei der der Verbrauch ausschließlich manuell erfasst wird, gegebenenfalls auch Verbrauchswarnungen ausgegeben werden.\n"
-"  * Gesperrt: nur ein Vorgesetzter kann einen Fertigungsauftrag schließen, wenn der Stücklistenverbrauch nicht eingehalten wird."
+"  * Gesperrt: nur ein Vorgesetzter kann einen Produktionsauftrag schließen, wenn der Stücklistenverbrauch nicht eingehalten wird."
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__delay_alert_date
@@ -1993,7 +1993,7 @@ msgstr "Geschätzte %s"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.exception_on_mo
 msgid "Exception(s) occurred on the manufacturing order(s):"
-msgstr "Bei den Fertigungsaufträgen sind Ausnahmen aufgetreten:"
+msgstr "Bei den Produktionsaufträgen sind Ausnahmen aufgetreten:"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.exception_on_mo
@@ -2709,7 +2709,7 @@ msgid ""
 "readiness status is ready, as per BOM configuration."
 msgstr ""
 "Aktueller Status der Komponentenverfügbarkeit für diesen Produktionsauftrag."
-" Wenn der Status grün ist, ist der Fertigungsauftrag gemäß der "
+" Wenn der Status grün ist, ist der Produktionsauftrag gemäß der "
 "Stücklistenkonfiguration bereit."
 
 #. module: mrp
@@ -2782,7 +2782,7 @@ msgid ""
 "Lock the manufacturing order to prevent changes to what has been consumed or"
 " produced."
 msgstr ""
-"Sperren Sie den Fertigungsauftrag, um Änderungen an dem zu verhindern, was "
+"Sperren Sie den Produktionsauftrag, um Änderungen an dem zu verhindern, was "
 "verbraucht oder produziert wurde."
 
 #. module: mrp
@@ -2834,7 +2834,7 @@ msgstr "MO von %s generiert"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__reservation_state
 msgid "MO Readiness"
-msgstr "Bereitschaft des Fertigungsauftrags"
+msgstr "Bereitschaft des Produktionsauftrags"
 
 #. module: mrp
 #: model:ir.actions.client,name:mrp.mrp_reception_action
@@ -2901,7 +2901,7 @@ msgstr "Manuelle Dauer"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_product_template_form_inherited
 msgid "Manuf. Lead Time"
-msgstr "Fertigungsdurchlaufzeit"
+msgstr "Produktionsdurchlaufzeit"
 
 #. module: mrp
 #. odoo-python
@@ -2913,7 +2913,7 @@ msgstr "Fertigungsdurchlaufzeit"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_report_stock_rule
 #, python-format
 msgid "Manufacture"
-msgstr "Fertigung"
+msgstr "Produktion"
 
 #. module: mrp
 #. odoo-python
@@ -2926,19 +2926,19 @@ msgstr "Herstellung (1 Schritt)"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__manufacture_mto_pull_id
 msgid "Manufacture MTO Rule"
-msgstr "Fertigung MTO-Regel"
+msgstr "Produktion MTO-Regel"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__manufacture_pull_id
 msgid "Manufacture Rule"
-msgstr "Fertigungsregel"
+msgstr "Produktionsregel"
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/models/stock_rule.py:0
 #, python-format
 msgid "Manufacture Security Lead Time"
-msgstr "Sicherheitsvorlaufzeit der Fertigung"
+msgstr "Sicherheitsvorlaufzeit der Produktion"
 
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_bom__type__normal
@@ -2977,7 +2977,7 @@ msgstr "Hergestellt in den letzten 365 Tagen"
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_bom_filter
 #, python-format
 msgid "Manufacturing"
-msgstr "Fertigung"
+msgstr "Produktion"
 
 #. module: mrp
 #. odoo-javascript
@@ -2985,7 +2985,7 @@ msgstr "Fertigung"
 #: code:addons/mrp/static/src/mrp_forecasted/forecasted_buttons.xml:0
 #, python-format
 msgid "Manufacturing Forecast"
-msgstr "Fertigungsprognose"
+msgstr "Produktionsprognose"
 
 #. module: mrp
 #. odoo-python
@@ -2996,7 +2996,7 @@ msgstr "Fertigungsprognose"
 #: model:ir.model.fields,field_description:mrp.field_res_config_settings__manufacturing_lead
 #, python-format
 msgid "Manufacturing Lead Time"
-msgstr "Durchlaufzeit der Fertigung"
+msgstr "Durchlaufzeit der Produktion"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__manu_type_id
@@ -3018,7 +3018,7 @@ msgstr "Art des Herstellungsvorgangs"
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_workorder_form_view_filter
 msgid "Manufacturing Order"
-msgstr "Fertigungsauftrag"
+msgstr "Produktionsauftrag"
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.act_product_mrp_production_workcenter
@@ -3034,28 +3034,28 @@ msgstr "Fertigungsauftrag"
 #: model_terms:ir.ui.view,arch_db:mrp.view_production_graph
 #: model_terms:ir.ui.view,arch_db:mrp.view_production_pivot
 msgid "Manufacturing Orders"
-msgstr "Fertigungsaufträge"
+msgstr "Produktionsaufträge"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Manufacturing Orders which are in confirmed state."
-msgstr "Bestätigte Fertigungsaufträge"
+msgstr "Bestätigte Produktionsaufträge"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom__ready_to_produce
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
 msgid "Manufacturing Readiness"
-msgstr "Fertigungsbereitschaft"
+msgstr "Produktionsbereitschaft"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Manufacturing Reference"
-msgstr "Fertigungsreferenz"
+msgstr "Produktionsreferenz"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse_orderpoint__manufacturing_visibility_days
 msgid "Manufacturing Visibility Days"
-msgstr "Fertigungssichtbarkeitstage"
+msgstr "Produktionssichtbarkeitstage"
 
 #. module: mrp
 #: model_terms:ir.actions.act_window,help:mrp.mrp_workcenter_action
@@ -3063,7 +3063,7 @@ msgid ""
 "Manufacturing operations are processed at Work Centers. A Work Center can be composed of\n"
 "                workers and/or machines, they are used for costing, scheduling, capacity planning, etc."
 msgstr ""
-"Fertigungsvorgänge werden in Work-Centern bearbeitet. Ein Work-Center kann aus\n"
+"Produktionsvorgänge werden in Work-Centern bearbeitet. Ein Work-Center kann aus\n"
 "Arbeitern und/oder Maschinen bestehen, sie werden für die Kalkulation, Terminierung, Kapazitätsplanung usw. verwendet."
 
 #. module: mrp
@@ -3073,7 +3073,7 @@ msgid ""
 "                workers and/or machines, they are used for costing, scheduling, capacity planning, etc.\n"
 "                They can be defined via the configuration menu."
 msgstr ""
-"Fertigungsvorgänge werden in Work-Centern bearbeitet. Ein Work-Center kann aus\n"
+"Produktionsvorgänge werden in Work-Centern bearbeitet. Ein Work-Center kann aus\n"
 "Arbeitern und/oder Maschinen bestehen, sie werden für die Kalkulation, Terminierung, Kapazitätsplanung usw. verwendet.\n"
 "Sie können über das Konfigurationsmenü definiert werden."
 
@@ -3085,7 +3085,7 @@ msgid ""
 "            * Ready: The material is available to start the production.\n"
 "            * Waiting: The material is not available to start the production.\n"
 msgstr ""
-"Fertigungsbereitschaft für diesen Produktionsauftrag gemäß der Stücklistenkonfiguration:\n"
+"Produktionsbereitschaft für diesen Produktionsauftrag gemäß der Stücklistenkonfiguration:\n"
 "* Bereit: Das Material ist verfügbar, um die Produktion zu starten.\n"
 "* Wartet: Das Material ist nicht verfügbar, um die Produktion zu starten.\n"
 
@@ -3274,7 +3274,7 @@ msgstr "Noch keine Daten vorhanden!"
 #. module: mrp
 #: model_terms:ir.actions.act_window,help:mrp.mrp_production_action
 msgid "No manufacturing order found. Let's create one."
-msgstr "Kein Fertigungsauftrag gefunden. Erstellen Sie einen!"
+msgstr "Kein Produktionsauftrag gefunden. Erstellen Sie einen!"
 
 #. module: mrp
 #: model_terms:ir.actions.act_window,help:mrp.product_template_action
@@ -3364,17 +3364,17 @@ msgstr "Anzahl der Aktionen"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__count_mo_late
 msgid "Number of Manufacturing Orders Late"
-msgstr "Anzahl der verspäteten Fertigungsaufträge"
+msgstr "Anzahl der verspäteten Produktionsaufträge"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__count_mo_waiting
 msgid "Number of Manufacturing Orders Waiting"
-msgstr "Anzahl der wartenden Fertigungsaufträge"
+msgstr "Anzahl der wartenden Produktionsaufträge"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__count_mo_todo
 msgid "Number of Manufacturing Orders to Process"
-msgstr "Anzahl der zu bearbeitenden Fertigungsaufträge"
+msgstr "Anzahl der zu bearbeitenden Produktionsaufträge"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__unbuild_count
@@ -3416,7 +3416,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__mrp_production_source_count
 msgid "Number of source MO"
-msgstr "Nummer der Auftragsquelle Fertigungsauftrag"
+msgstr "Nummer der Auftragsquelle Produktionsauftrag"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_workcenter_kanban
@@ -3453,7 +3453,7 @@ msgstr ""
 #: code:addons/mrp/models/mrp_production.py:0
 #, python-format
 msgid "Only manufacturing orders with a Bill of Materials can be %s."
-msgstr "Es können nur Fertigungsaufträge mit einer Stückliste %s werden."
+msgstr "Es können nur Produktionsaufträge mit einer Stückliste %s werden."
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_tree_editable_view
@@ -3676,7 +3676,7 @@ msgstr "Komponenten zusammenstellen und fertigen"
 #: model:ir.model.fields.selection,name:mrp.selection__stock_warehouse__manufacture_steps__pbm
 msgid "Pick components and then manufacture (2 steps)"
 msgstr ""
-"Zusammenstellen der Komponenten mit anschließender Fertigung (2. Schritt)"
+"Zusammenstellen der Komponenten mit anschließender Produktion (2. Schritt)"
 
 #. module: mrp
 #. odoo-python
@@ -3691,17 +3691,17 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__pbm_mto_pull_id
 msgid "Picking Before Manufacturing MTO Rule"
-msgstr "Kommissionierung vor Einzelfertigungsregel"
+msgstr "Kommissionierung vor EinzelProduktionsregel"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__pbm_type_id
 msgid "Picking Before Manufacturing Operation Type"
-msgstr "Kommissionierung vor der Fertigung Vorgangstyp"
+msgstr "Kommissionierung vor der Produktion Vorgangstyp"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__pbm_route_id
 msgid "Picking Before Manufacturing Route"
-msgstr "Kommissionierung vor Fertigungsroute"
+msgstr "Kommissionierung vor Produktionsroute"
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_stock_picking_type
@@ -3732,7 +3732,7 @@ msgstr "Aufträge planen"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
 msgid "Plan manufacturing or purchase orders based on forecasts"
-msgstr "Fertigungsauftrag oder Bestellungen basierend auf Prognosen planen"
+msgstr "Produktionsauftrag oder Bestellungen basierend auf Prognosen planen"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.stock_production_type_kanban
@@ -4005,7 +4005,7 @@ msgstr "Produktionskapazität"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__production_date
 msgid "Production Date"
-msgstr "Fertigungsdatum"
+msgstr "Produktionsdatum"
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_mrp_document
@@ -4020,29 +4020,29 @@ msgstr "Produktinformationen"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__production_location_id
 msgid "Production Location"
-msgstr "Fertigungort (virtuelles Lager)"
+msgstr "Produktionort (virtuelles Lager)"
 
 #. module: mrp
 #: model:ir.actions.report,name:mrp.action_report_production_order
 #: model:ir.model,name:mrp.model_mrp_production
 #: model:ir.model.fields,field_description:mrp.field_stock_move_line__production_id
 msgid "Production Order"
-msgstr "Fertigungsauftrag"
+msgstr "Produktionsauftrag"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_move__raw_material_production_id
 msgid "Production Order for components"
-msgstr "Fertigungsauftrag für Komponenten"
+msgstr "Produktionsauftrag für Komponenten"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_move__production_id
 msgid "Production Order for finished products"
-msgstr "Fertigungsauftrag für fertige Produkte"
+msgstr "Produktionsauftrag für fertige Produkte"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__production_state
 msgid "Production State"
-msgstr "Fertigungsstufe"
+msgstr "Produktionsstufe"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_form_view_inherit
@@ -4054,7 +4054,7 @@ msgstr "Arbeitsplatz"
 #: code:addons/mrp/static/src/mrp_forecasted/forecasted_details.xml:0
 #, python-format
 msgid "Production of Draft MO"
-msgstr "Erstellung Entwurf Fertigungsauftrag"
+msgstr "Erstellung Entwurf Produktionsauftrag"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_workorder_form_view_filter
@@ -4211,7 +4211,7 @@ msgstr "Bereit"
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom
 #, python-format
 msgid "Ready to Produce"
-msgstr "Bereit für Fertigung"
+msgstr "Bereit für Produktion"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__production_real_duration
@@ -4253,7 +4253,7 @@ msgstr "Die Referenz muss pro Unternehmen eindeutig sein!"
 #: model:ir.model.fields,help:mrp.field_mrp_production__origin
 msgid ""
 "Reference of the document that generated this production order request."
-msgstr "Referenz zu Dokument, welches den Fertigungsauftrag ausgelöst hat."
+msgstr "Referenz zu Dokument, welches den Produktionsauftrag ausgelöst hat."
 
 #. module: mrp
 #. odoo-javascript
@@ -4377,7 +4377,7 @@ msgstr "Geplantes Datum"
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
 msgid "Schedule manufacturing orders earlier to avoid delays"
 msgstr ""
-"Planen Sie Fertigungsaufträge frühzeitig, um Verzögerungen zu vermeiden."
+"Planen Sie Produktionsaufträge frühzeitig, um Verzögerungen zu vermeiden."
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__date_planned_start
@@ -4465,7 +4465,7 @@ msgstr "Stücklisten durchsuchen"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Search Production"
-msgstr "Fertigungsauftrag suchen"
+msgstr "Produktionsauftrag suchen"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_workorder_form_view_filter
@@ -4510,21 +4510,21 @@ msgstr "Sequenz"
 #: code:addons/mrp/models/stock_warehouse.py:0
 #, python-format
 msgid "Sequence picking before manufacturing"
-msgstr "Sequenzkommissionierung vor der Fertigung"
+msgstr "Sequenzkommissionierung vor der Produktion"
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 #, python-format
 msgid "Sequence production"
-msgstr "Fertigungsablauf"
+msgstr "Produktionsablauf"
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 #, python-format
 msgid "Sequence stock after manufacturing"
-msgstr "Sequenzbestand nach Fertigung"
+msgstr "Sequenzbestand nach Produktion"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_assign_serial_numbers_production
@@ -4596,7 +4596,7 @@ msgstr "Details anzeigen"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__show_final_lots
 msgid "Show Final Lots"
-msgstr "Endgültige Fertigungslose anzeigen"
+msgstr "Endgültige Produktionslose anzeigen"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__show_lock
@@ -4611,7 +4611,7 @@ msgstr "Popover anzeigen?"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_immediate_production__show_productions
 msgid "Show Productions"
-msgstr "Fertigungen anzeigen"
+msgstr "Produktionen anzeigen"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_unbuild_search_view
@@ -4655,7 +4655,7 @@ msgid ""
 "order in order to retrieve the correct byproducts."
 msgstr ""
 "Einige Ihrer Nebenprodukte werden nachverfolgt, Sie müssen einen "
-"Fertigungsauftrag angeben, um die richtigen Nebenprodukte abzurufen."
+"Produktionsauftrag angeben, um die richtigen Nebenprodukte abzurufen."
 
 #. module: mrp
 #. odoo-python
@@ -4666,7 +4666,7 @@ msgid ""
 "order in order to retrieve the correct components."
 msgstr ""
 "Einige der Komponenten werden verfolgt. Um die korrekten Komponenten zu "
-"erhalten, müssen Sie einen Fertigungsauftrag spezifizieren."
+"erhalten, müssen Sie einen Produktionsauftrag spezifizieren."
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -4675,7 +4675,7 @@ msgid ""
 "can't be completely cancelled. Are you still sure you want to process ?"
 msgstr ""
 "Einige Produktbewegungen wurden schon bestätigt. Daher kann dieser "
-"Fertigungsauftrag nicht mehr abgebrochen werden. Sind Sie sich sicher, dass "
+"Produktionsauftrag nicht mehr abgebrochen werden. Sind Sie sich sicher, dass "
 "Sie fortfahren möchten?"
 
 #. module: mrp
@@ -4687,7 +4687,7 @@ msgid ""
 "order."
 msgstr ""
 "Einige Arbeitsvorgänge sind schon abgeschlossen. Sie können diesen "
-"Fertigungsauftrag nicht entfernen."
+"Produktionsauftrag nicht entfernen."
 
 #. module: mrp
 #. odoo-python
@@ -4698,7 +4698,7 @@ msgid ""
 "order."
 msgstr ""
 "Einige Arbeitsvorgänge sind bereits gestartet. Sie können diesen "
-"Fertigungsauftrag nicht entfernen."
+"Produktionsauftrag nicht entfernen."
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__origin
@@ -4824,12 +4824,12 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__sam_type_id
 msgid "Stock After Manufacturing Operation Type"
-msgstr "Bestand nach Fertigungsvorgangsart"
+msgstr "Bestand nach Produktionsvorgangsart"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__sam_rule_id
 msgid "Stock After Manufacturing Rule"
-msgstr "Bestand nach Fertigungsregel"
+msgstr "Bestand nach Produktionsregel"
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_stock_assign_serial
@@ -4874,7 +4874,7 @@ msgstr "Lagerregel"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__sam_loc_id
 msgid "Stock after Manufacturing Location"
-msgstr "Bestand nach Fertigungsstandort"
+msgstr "Bestand nach Produktionsstandort"
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_report_stock_report_stock_rule
@@ -5145,7 +5145,7 @@ msgid ""
 "The total cost share for a manufacturing order's by-products cannot exceed "
 "100."
 msgstr ""
-"Der Gesamtkostenanteil für die Nebenprodukte eines Fertigungsauftrags darf "
+"Der Gesamtkostenanteil für die Nebenprodukte eines Produktionsauftrags darf "
 "100 nicht überschreiten."
 
 #. module: mrp
@@ -5222,7 +5222,7 @@ msgid ""
 msgstr ""
 "Das sind die auf die Stückliste basierenden Kosten für dieses Produkt. Diese"
 " werden durch das Addieren der Komponenten- und Vorgangskosten, die für die "
-"Fertigung benötigt werden, berechnet."
+"Produktion benötigt werden, berechnet."
 
 #. module: mrp
 #. odoo-javascript
@@ -5329,7 +5329,7 @@ msgstr "Zeitzone"
 #: model_terms:digest.tip,tip_description:mrp.digest_tip_mrp_0
 msgid "Tip: Use tablets in the shop to control manufacturing"
 msgstr ""
-"Tipp: Verwenden Sie Tablets in der Werkstatt zur Steuerung der Fertigung"
+"Tipp: Verwenden Sie Tablets in der Werkstatt zur Steuerung der Produktion"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -5601,7 +5601,7 @@ msgstr "Entsperren"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_res_config_settings__group_unlocked_by_default
 msgid "Unlock Manufacturing Orders"
-msgstr "Fertigungsaufträge freischalten"
+msgstr "Produktionsaufträge freischalten"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -5609,7 +5609,7 @@ msgid ""
 "Unlock the manufacturing order to adjust what has been consumed or produced."
 msgstr ""
 "Zum Anpassen, was verbraucht oder produziert wurde, muss der "
-"Fertigungsauftrag entsperrt werden."
+"Produktionsauftrag entsperrt werden."
 
 #. module: mrp
 #: model:res.groups,name:mrp.group_unlocked_by_default
@@ -5667,7 +5667,7 @@ msgstr "Vorgangsabhängigkeiten verwenden"
 #. module: mrp
 #: model:res.groups,name:mrp.group_mrp_reception_report
 msgid "Use Reception Report with Manufacturing Orders"
-msgstr "Empfangsbericht mit Fertigungsaufträgen verwenden"
+msgstr "Empfangsbericht mit Produktionsaufträgen verwenden"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.product_product_form_view_bom_button
@@ -5690,8 +5690,8 @@ msgid ""
 "forecasts."
 msgstr ""
 "Die Verwendung eines MPS-Bericht zur Planung Ihrer Nachbestell- und "
-"Fertigungsabläufe ist nützlich bei einer langen Vorlaufzeit und einer "
-"Fertigung auf Grundlage von Verkaufsprognosen."
+"Produktionsabläufe ist nützlich bei einer langen Vorlaufzeit und einer "
+"Produktion auf Grundlage von Verkaufsprognosen."
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_split__valid_details
@@ -5729,7 +5729,7 @@ msgstr "Gefertigtee Mengen anzeigen und zuordnen."
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_warehouse_orderpoint__manufacturing_visibility_days
 msgid "Visibility Days applied on the manufacturing routes."
-msgstr "Auf die Fertigungsrouten angewandte Sichtbarkeitstage."
+msgstr "Auf die Produktionsrouten angewandte Sichtbarkeitstage."
 
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__reservation_state__confirmed
@@ -5836,9 +5836,9 @@ msgid ""
 "manufacturing orders with different BoMs."
 msgstr ""
 "Wenn eine Beschaffungsroute „Produzieren“ mit einer festgelegten Vorgangsart"
-" hat, wird sie versuchen, einen Fertigungsauftrag für dieses Produkt mit "
+" hat, wird sie versuchen, einen Produktionsauftrag für dieses Produkt mit "
 "einer Stückliste derselben Vorgangsart zu erstellen. So können "
-"Bestandsregeln definiert werden, die verschiedene Fertigungsaufträge mit "
+"Bestandsregeln definiert werden, die verschiedene Produktionsaufträge mit "
 "unterschiedlichen Stücklisten auslösen."
 
 #. module: mrp
@@ -5849,7 +5849,7 @@ msgid ""
 "If not activated, and any of the components consumption is edited manually on the manufacturing order, Odoo assumes manual consumption also."
 msgstr ""
 "Wenn diese Option aktiviert ist, wird der Verbrauch für diese Komponente ausschließlich manuell erfasst.\n"
-"Wenn sie nicht aktiviert ist und der Verbrauch einer der Komponenten manuell auf dem Fertigungssauftrag bearbeitet wird, nimmt Odoo den manuellen Verbrauch ebenfalls an."
+"Wenn sie nicht aktiviert ist und der Verbrauch einer der Komponenten manuell auf dem Produktionssauftrag bearbeitet wird, nimmt Odoo den manuellen Verbrauch ebenfalls an."
 
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_bom__ready_to_produce__asap
@@ -5870,7 +5870,7 @@ msgid ""
 "When products are needed in <b>%s</b>, <br/> a manufacturing order is "
 "created to fulfill the need."
 msgstr ""
-"Wenn Produkte in<b>%s</b> benötigt werden , <br/> wird ein Fertigungsauftrag"
+"Wenn Produkte in<b>%s</b> benötigt werden , <br/> wird ein Produktionsauftrag"
 " erstellt, um den Bedarf zu decken."
 
 #. module: mrp
@@ -5894,7 +5894,7 @@ msgid ""
 "used for a MO (related to the bom)"
 msgstr ""
 "Assistent bei Verbrauch in Warnung/genau und mehr Komponente wurde für einen"
-" Fertigungsauftrag verwendet (bezogen auf die Stückliste)"
+" Produktionsauftrag verwendet (bezogen auf die Stückliste)"
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_mrp_production_split_multi
@@ -6005,7 +6005,7 @@ msgid ""
 "produce a product. They are attached to bills of materials that will define "
 "the required components."
 msgstr ""
-"Mit Arbeitsauftragsvorgängen können Sie die Fertigungsvorgänge erstellen und"
+"Mit Arbeitsauftragsvorgängen können Sie die Produktionsvorgänge erstellen und"
 " verwalten, die an Ihren Arbeitsplätzen zur Herstellung eines Produkts "
 "durchgeführt werden sollen. Sie sind mit Stücklisten verknüpft, die die "
 "benötigten Komponenten definieren."
@@ -6167,7 +6167,7 @@ msgid ""
 "the operation type and tick the box \"Create New Lots/Serial Numbers for "
 "Components\"."
 msgstr ""
-"Mit der Vorgangsart \"Fertigung\" können Sie keine Chargen- oder "
+"Mit der Vorgangsart \"Produktion\" können Sie keine Chargen- oder "
 "Seriennummern für die Komponenten anlegen oder bearbeiten. Um dies zu "
 "ändern, gehen Sie auf die Vorgangsart und markieren Sie das Kästchen \"Neue "
 "Chargen/Seriennummern für Komponenten erstellen\"."
@@ -6200,8 +6200,8 @@ msgid ""
 "You can not delete a Bill of Material with running manufacturing orders.\n"
 "Please close or cancel it first."
 msgstr ""
-"Sie können eine Stückliste nicht löschen, wenn dazu noch Fertigungsaufträge "
-"laufen. Bitte schließen Sie die entsprechenden Fertigungsaufträge zuerst."
+"Sie können eine Stückliste nicht löschen, wenn dazu noch Produktionsaufträge "
+"laufen. Bitte schließen Sie die entsprechenden Produktionsaufträge zuerst."
 
 #. module: mrp
 #. odoo-python
@@ -6210,7 +6210,7 @@ msgstr ""
 msgid ""
 "You can only merge manufacturing orders of identical products with same BoM."
 msgstr ""
-"Sie können nur Fertigungsaufträge für identische Produkte mit derselben "
+"Sie können nur Produktionsaufträge für identische Produkte mit derselben "
 "Stückliste zusammenführen."
 
 #. module: mrp
@@ -6221,7 +6221,7 @@ msgid ""
 "You can only merge manufacturing orders with no additional components or by-"
 "products."
 msgstr ""
-"Sie können nur Fertigungsaufträge ohne Zusatzkomponenten oder Nebenprodukte "
+"Sie können nur Produktionsaufträge ohne Zusatzkomponenten oder Nebenprodukte "
 "zusammenführen."
 
 #. module: mrp
@@ -6230,7 +6230,7 @@ msgstr ""
 #, python-format
 msgid "You can only merge manufacturing with the same operation type"
 msgstr ""
-"Sie können nur Fertigungsaufträge mit demselben Arbeitsvorgang "
+"Sie können nur Produktionsaufträge mit demselben Arbeitsvorgang "
 "zusammenführen."
 
 #. module: mrp
@@ -6238,7 +6238,7 @@ msgstr ""
 #: code:addons/mrp/models/mrp_production.py:0
 #, python-format
 msgid "You can only merge manufacturing with the same state."
-msgstr "Sie können nur Fertigungen mit demselben Status zusammenführen."
+msgstr "Sie können nur Produktionen mit demselben Status zusammenführen."
 
 #. module: mrp
 #. odoo-python
@@ -6286,7 +6286,7 @@ msgstr "Sie können kein fertiges Produkt als %s  Nebenprodukten haben"
 #, python-format
 msgid "You cannot link this work order to another manufacturing order."
 msgstr ""
-"Sie können diesen Arbeitsauftrag nicht mit einem anderen Fertigungsauftrag "
+"Sie können diesen Arbeitsauftrag nicht mit einem anderen Produktionsauftrag "
 "verbinden."
 
 #. module: mrp
@@ -6310,7 +6310,7 @@ msgstr "Es ist nicht möglich die gleiche Seriennummer zweimal zu produzieren."
 #: code:addons/mrp/models/mrp_unbuild.py:0
 #, python-format
 msgid "You cannot unbuild a undone manufacturing order."
-msgstr "Sie können einen unfertigen Fertigungsauftrag nicht auflösen."
+msgstr "Sie können einen unfertigen Produktionsauftrag nicht auflösen."
 
 #. module: mrp
 #. odoo-python
@@ -6342,9 +6342,9 @@ msgstr ""
 "[('consumption', '!=', 'strict')]}\"> Bitte überprüfen Sie Ihren "
 "Komponentenverbrauch oder bitten Sie einen Manager um Bestätigung <span "
 "attrs=\"{'invisible':[('mrp_production_count', '!=', 1)]}\">für diesen "
-"Fertigungsauftrag</span> <span "
+"Produktionsauftrag</span> <span "
 "attrs=\"{'invisible':[('mrp_production_count', '=', 1)]}\">für diese "
-"Fertigungsaufträge</span>. </b> "
+"Produktionsaufträge</span>. </b> "
 
 #. module: mrp
 #. odoo-python
@@ -6410,7 +6410,7 @@ msgid ""
 msgstr ""
 "Sie müssen in der Kategorie „Leistung” wenigstens einen "
 "Produktivitätsrückgang definieren. Erstellen Sie einen über die "
-"Fertigungsapp im Menü „Konfiguration” > „Produktivitätsrückgänge”."
+"Produktionsapp im Menü „Konfiguration” > „Produktivitätsrückgänge”."
 
 #. module: mrp
 #. odoo-python
@@ -6423,7 +6423,7 @@ msgid ""
 msgstr ""
 "Sie müssen in der Kategorie „Produktivität” wenigstens einen "
 "Produktivitätsrückgang definieren. Erstellen Sie einen über die "
-"Fertigungsapp im Menü „Konfiguration” > „Produktivitätsrückgänge”."
+"Produktionsapp im Menü „Konfiguration” > „Produktivitätsrückgänge”."
 
 #. module: mrp
 #. odoo-python
@@ -6436,7 +6436,7 @@ msgid ""
 msgstr ""
 "Sie müssen in der Kategorie „Leistung” wenigstens einen nicht aktiven "
 "Produktivitätsrückgang definieren. Erstellen Sie einen über die "
-"Fertigungsapp im Menü „Konfiguration” > „Produktivitätsrückgänge”."
+"Produktionsapp im Menü „Konfiguration” > „Produktivitätsrückgänge”."
 
 #. module: mrp
 #. odoo-python
@@ -6533,7 +6533,7 @@ msgstr "letzter"
 #: code:addons/mrp/models/mrp_production.py:0
 #, python-format
 msgid "manufacturing order"
-msgstr "Fertigungsauftrag"
+msgstr "Produktionsauftrag"
 
 #. module: mrp
 #. odoo-python

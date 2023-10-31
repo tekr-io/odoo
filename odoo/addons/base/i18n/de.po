@@ -1521,7 +1521,7 @@ msgid ""
 "Add relation information between Sale Orders and Purchase Orders if Make to Order (MTO) is activated on one sold product.\n"
 msgstr ""
 "\n"
-"Fügen Sie Beziehungsinformationen zwischen Verkaufsaufträgen und Bestellungen hinzu, wenn die Auftragsfertigung (MTO) für ein verkauftes Produkt aktiviert ist.\n"
+"Fügen Sie Beziehungsinformationen zwischen Verkaufsaufträgen und Bestellungen hinzu, wenn die AuftragsProduktion (MTO) für ein verkauftes Produkt aktiviert ist.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_fr_facturx_chorus_pro
@@ -3669,7 +3669,7 @@ msgstr ""
 "Anwendung zur Verwaltung der Ressourcen.\n"
 "===================================\n"
 "\n"
-"Eine Ressource stellt etwas dar, das geplant werden kann (ein Entwickler für eine Aufgabe oder einen Arbeitsplatz für Fertigungsaufträge). Diese Anwendung verwaltet einen Ressourcenkalender, der jeder Ressource zugeordnet ist. Er verwaltet auch die Fehlzeiten jeder Ressource.\n"
+"Eine Ressource stellt etwas dar, das geplant werden kann (ein Entwickler für eine Aufgabe oder einen Arbeitsplatz für Produktionsaufträge). Diese Anwendung verwaltet einen Ressourcenkalender, der jeder Ressource zugeordnet ist. Er verwaltet auch die Fehlzeiten jeder Ressource.\n"
 "    "
 
 #. module: base
@@ -5784,7 +5784,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Diese Anwendung bietet dem Benutzer die Möglichkeit, Fertigung und Verkauf gleichzeitig zu installieren. \n"
+"Diese Anwendung bietet dem Benutzer die Möglichkeit, Produktion und Verkauf gleichzeitig zu installieren. \n"
 "==============================================================================================\n"
 "\n"
 "Es wird grundsätzlich verwendet, um den Überblick über Produktionsaufträge zu behalten, die\n"
@@ -8957,7 +8957,7 @@ msgstr "Kostenrechnung"
 #. module: base
 #: model:ir.module.module,summary:base.module_mrp_account
 msgid "Analytic accounting in Manufacturing"
-msgstr "Analytische Buchhaltung in der Fertigung"
+msgstr "Analytische Buchhaltung in der Produktion"
 
 #. module: base
 #: model:res.country,name:base.ad
@@ -10103,7 +10103,7 @@ msgstr "HTML-Feldbereinigung umgehen"
 #. module: base
 #: model:res.partner.industry,full_name:base.res_partner_industry_C
 msgid "C - MANUFACTURING"
-msgstr "C - FERTIGUNG"
+msgstr "C - Produktion"
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__report_paperformat__format__c5e
@@ -16645,7 +16645,7 @@ msgstr "Einstandskosten"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mrp_landed_costs
 msgid "Landed Costs On MO"
-msgstr "Wareneinstandskosten bei Fertigungsauftrag"
+msgstr "Wareneinstandskosten bei Produktionsauftrag"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mrp_subonctracting_landed_costs
@@ -16655,7 +16655,7 @@ msgstr "Einstandskosten mit Subunternehmerauftrag"
 #. module: base
 #: model:ir.module.module,summary:base.module_mrp_landed_costs
 msgid "Landed Costs on Manufacturing Order"
-msgstr "Wareneinstandskosten beim Fertigungsauftrag"
+msgstr "Wareneinstandskosten beim Produktionsauftrag"
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__report_paperformat__orientation__landscape
@@ -17678,18 +17678,18 @@ msgstr "Verwalten Sie Ihre Lager- und Logistikaktivitäten"
 #: model:res.partner.industry,name:base.res_partner_industry_C
 #: model_terms:ir.ui.view,arch_db:base.user_groups_view
 msgid "Manufacturing"
-msgstr "Fertigung"
+msgstr "Produktion"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mrp_product_expiry
 #: model:ir.module.module,summary:base.module_mrp_product_expiry
 msgid "Manufacturing Expiry"
-msgstr "Ablauf Fertigung"
+msgstr "Ablauf Produktion"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mrp
 msgid "Manufacturing Orders & BOMs"
-msgstr "Fertigungsaufträge & Stücklisten"
+msgstr "Produktionsaufträge & Stücklisten"
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_property__type__many2one
@@ -19633,18 +19633,18 @@ msgstr ""
 "Odoo Manufacturing Resource Planning\n"
 "------------------------------------\n"
 "\n"
-"Verwalten Sie Stücklisten, planen Sie Fertigungsaufträge, verfolgen Sie Arbeitsaufträge mit der\n"
+"Verwalten Sie Stücklisten, planen Sie Produktionsaufträge, verfolgen Sie Arbeitsaufträge mit der\n"
 "Odoo <a href=\"https://www.odoo.com/app/manufacturing\">Open Source MRP</a>-App.\n"
 "\n"
-"Verwalten Sie alle Ihre Montage- oder Fertigungsvorgänge mit Odoo. Planen Sie\n"
-"Fertigungsaufträge und Arbeitsaufträge automatisch. Überprüfen Sie die vorgeschlagene\n"
+"Verwalten Sie alle Ihre Montage- oder Produktionsvorgänge mit Odoo. Planen Sie\n"
+"Produktionsaufträge und Arbeitsaufträge automatisch. Überprüfen Sie die vorgeschlagene\n"
 "Planung mit den intelligenten Kanban- und Gantt-Ansichten. Nutzen Sie die erweiterten Analysefunktionen\n"
 "zur Erkennung von Engpässen bei Ressourcenkapazitäten und Lagerorten.\n"
 "\n"
-"Effiziente Planung von Fertigungsaufträgen\n"
+"Effiziente Planung von Produktionsaufträgen\n"
 "-----------------------------------------\n"
 "\n"
-"Automatische Einplanung von Fertigungs- und Arbeitsaufträgen auf der Grundlage Ihrer\n"
+"Automatische Einplanung von Produktions- und Arbeitsaufträgen auf der Grundlage Ihrer\n"
 "Beschaffungsregeln, prognostizierten Mengen und abhängigem Bedarf (Bedarf für ein\n"
 "Teil basierend auf einem anderen Teil, das es erfordert).\n"
 "\n"
@@ -19653,7 +19653,7 @@ msgstr ""
 "\n"
 "Sie erhalten die Flexibilität, mehrstufige Stücklisten, optionales Routing,\n"
 "Versionsänderungen und Phantom-Stücklisten zu erstellen. Sie können Stücklisten für Bausätze oder für\n"
-"Fertigungsaufträge verwenden.\n"
+"Produktionsaufträge verwenden.\n"
 "\n"
 "Mehr Flexibilität bei allen Vorgängen\n"
 "---------------------------------\n"
@@ -19672,24 +19672,24 @@ msgstr ""
 "Eine produktive Benutzeroberfläche\n"
 "---------------------------\n"
 "\n"
-"Organisieren Sie Fertigungs- und Arbeitsaufträge so, wie Sie es wünschen. Bearbeiten Sie nächste\n"
+"Organisieren Sie Produktions- und Arbeitsaufträge so, wie Sie es wünschen. Bearbeiten Sie nächste\n"
 "Aufträge in der Listenansicht, navigieren Sie in der Kalenderansicht und bearbeiten Sie den vorgeschlagenen\n"
 "Zeitplan in der Gantt-Ansicht.\n"
 "\n"
 "\n"
-"Bestands- und Fertigungsanalyse\n"
+"Bestands- und Produktionsanalyse\n"
 "-----------------------------------\n"
 "\n"
-"Verfolgen Sie die Entwicklung des Bestandswerts entsprechend dem Niveau der Fertigungs\n"
+"Verfolgen Sie die Entwicklung des Bestandswerts entsprechend dem Niveau der Produktions\n"
 "Aktivitäten im Verlauf des Transformationsprozesses.\n"
 "\n"
 "Vollständig in den Betrieb integriert\n"
 "--------------------------------\n"
 "\n"
-"Sorgen Sie für eine präzise Planung Ihrer Fertigungsressourcen durch die vollständige Integration\n"
+"Sorgen Sie für eine präzise Planung Ihrer Produktionsressourcen durch die vollständige Integration\n"
 "mit den Anwendungen für Verkauf und Einkauf. Die Buchhaltungsintegration ermöglicht\n"
 "buchhalterische Bewertung und tiefere Berichterstattung über Kosten und Erlöse Ihrer\n"
-"Fertigungsvorgänge in Echtzeit.\n"
+"Produktionsvorgänge in Echtzeit.\n"
 "\n"
 "\n"
 "\n"
@@ -20320,7 +20320,7 @@ msgstr ""
 "\n"
 "Reduzieren Sie den Lagerbestand mit Beschaffungsregeln. Holen Sie sich das richtige Kauf\n"
 "Vorschlag zur richtigen Zeit, um Ihren Lagerbestand zu reduzieren. Verbessern Sie Ihre\n"
-"Einkaufs- und Bestandsleistung mit Beschaffungsregeln in Abhängigkeit von Lagerbeständen, Logistikregeln, Kundenaufträgen, prognostizierten Fertigungsaufträgen usw.\n"
+"Einkaufs- und Bestandsleistung mit Beschaffungsregeln in Abhängigkeit von Lagerbeständen, Logistikregeln, Kundenaufträgen, prognostizierten Produktionsaufträgen usw.\n"
 "\n"
 "Senden Sie Angebotsanfragen oder Bestellungen mit einem Klick an Ihren Lieferanten.\n"
 "Greifen Sie über Ihre Bestellung auf Wareneingänge und Rechnungen zu.\n"
@@ -22950,7 +22950,7 @@ msgstr "Lager kaufen"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_purchase_mrp
 msgid "Purchase and MRP Management"
-msgstr "Einkauf und Fertigungsplanung"
+msgstr "Einkauf und Produktionsplanung"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mrp_subcontracting_purchase
@@ -24006,7 +24006,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_mrp
 msgid "Sales and MRP Management"
-msgstr "Verkauf und Fertigungsplanung"
+msgstr "Verkauf und Produktionsplanung"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_stock

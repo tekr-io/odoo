@@ -95,7 +95,7 @@ msgid ""
 "bill of materials, for manufactured products only."
 msgstr ""
 "Berechnung des Produktpreises mittels Produkten und Vorgängen der "
-"entsprechenden Stücklisten, nur für Fertigungsprodukte."
+"entsprechenden Stücklisten, nur für Produktionsprodukte."
 
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_workcenter_productivity__cost_already_recorded
@@ -115,7 +115,7 @@ msgstr "Buchungszeile"
 #. module: mrp_account
 #: model:ir.model.fields.selection,name:mrp_account.selection__account_analytic_line__category__manufacturing_order
 msgid "Manufacturing Order"
-msgstr "Fertigungsauftrag"
+msgstr "Produktionsauftrag"
 
 #. module: mrp_account
 #: code:addons/mrp_account/models/analytic_account.py:0
@@ -123,17 +123,17 @@ msgstr "Fertigungsauftrag"
 #: model_terms:ir.ui.view,arch_db:mrp_account.account_analytic_account_view_form_mrp
 #, python-format
 msgid "Manufacturing Orders"
-msgstr "Fertigungsaufträge"
+msgstr "Produktionsaufträge"
 
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_account_analytic_account__production_count
 msgid "Manufacturing Orders Count"
-msgstr "Anzahl Fertigungsaufträge"
+msgstr "Anzahl Produktionsaufträge"
 
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_workorder__mo_analytic_account_line_id
 msgid "Mo Analytic Account Line"
-msgstr "Zeile der Kostenstelle bei Fertigungsaufträgen"
+msgstr "Zeile der Kostenstelle bei Produktionsaufträgen"
 
 #. module: mrp_account
 #: model:ir.model.fields,help:mrp_account.field_mrp_workcenter__costs_hour_account_id
@@ -157,7 +157,7 @@ msgstr "Produktvarianten"
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_mrp_production
 msgid "Production Order"
-msgstr "Fertigungsauftrag"
+msgstr "Produktionsauftrag"
 
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_production__show_valuation

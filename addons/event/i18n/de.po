@@ -3787,7 +3787,7 @@ msgstr ""
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "Warehouse management, Manufacturing (MRP) &amp; Sales, Import/Export."
-msgstr "Lagerverwaltung, Fertigung (MRP) &amp; Verkauf, Import/Export."
+msgstr "Lagerverwaltung, Produktion (MRP) &amp; Verkauf, Import/Export."
 
 #. module: event
 #: model_terms:event.event,description:event.event_1

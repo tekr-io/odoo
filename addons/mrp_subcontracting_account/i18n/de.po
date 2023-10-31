@@ -27,7 +27,7 @@ msgstr "Produktvarianten"
 #. module: mrp_subcontracting_account
 #: model:ir.model,name:mrp_subcontracting_account.model_mrp_production
 msgid "Production Order"
-msgstr "Fertigungsauftrag"
+msgstr "Produktionsauftrag"
 
 #. module: mrp_subcontracting_account
 #: model:ir.model,name:mrp_subcontracting_account.model_stock_move
